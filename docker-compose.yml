@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+  test_service:
+    container_name: test_container
+    build:
+      context: https://github.com/derekhubbard/test_docker_compose.git#main
+      dockerfile: ./Dockerfile.Local
